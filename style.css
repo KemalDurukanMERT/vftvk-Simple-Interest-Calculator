@@ -1,4 +1,21 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  font-weight: bolder;
+  background-color: white;
+  justify-content: center;
+  width: 100%;
+  /* border: 3px solid red; */
+  /* padding: 2rem; */
+}
+h1 {
+  color: grey;
+  font-weight: bolder;
+}
 
+.range{
+    display: flex;
+}
 
+main{
+    /* border: 3px solid blue; */
+    padding-left: 5rem;
+}
