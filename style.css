@@ -17,5 +17,12 @@ h1 {
 
 main{
     /* border: 3px solid blue; */
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
+
+.inside{
+    border: 3px solid grey;
+    padding: 1rem;
+    width: 20rem;
+}
+

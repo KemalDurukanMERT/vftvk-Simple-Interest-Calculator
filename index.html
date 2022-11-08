@@ -8,17 +8,19 @@
         <h1>Simple Interest Calculator</h1>
         
         <main>
+            <div class="inside">
             
-            <pre>Amount           <input type="number"  id="principal">  <br/></pre>
-            <div class="range">
+                <pre>Amount           <input type="number"  id="principal">  <br/></pre>
+                <div class="range">
                 
-                <pre><div class="rate">Interest Rate    <input class="rangeInput" type="range" step="0.25" min="1" max="20" id="rate" value="0">  <br/></div></pre>
+                    <pre><div class="rate">Interest Rate    <input class="rangeInput" type="range" step="0.25" min="1" max="20" id="rate" value="0">  <br/></div></pre>
                 
-                <pre><div class="rangeArea">1%</div></pre>
+                    <pre><div class="rangeArea">1%</div></pre>
+                </div>
+                <pre>No. of Years     <select name="" id="year"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>  <br/></pre>
+                
+                <button class="btn">Compute Interest</button>
             </div>
-            <pre>No. of Years     <select name="" id="year"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>  <br/></pre>
-            <br>
-            <button class="btn">Compute Interest</button>
             <div class="interest"></div>
             <br>
         </main>
